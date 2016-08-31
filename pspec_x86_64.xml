@@ -1,0 +1,214 @@
+<PISI>
+    <Source>
+        <Name>kaa-metadata</Name>
+        <Packager>
+            <Name>Duncan Wijnberg</Name>
+            <Email>duncanw@fastmail.net</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.library</PartOf>
+        <Summary xml:lang="en">A powerful Python library for parsing media metadata.</Summary>
+        <Description xml:lang="en">A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>kaa-metadata</Name>
+        <Summary xml:lang="en">A powerful Python library for parsing media metadata.</Summary>
+        <Description xml:lang="en">A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
+</Description>
+        <PartOf>desktop.library</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ID3.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ID3.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ID3.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ac3.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ac3.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ac3.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/adts.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/adts.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/adts.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/binfuncs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/binfuncs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/binfuncs.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/frames.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/frames.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/frames.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/mp3.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/mp3.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/mp3.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/tag.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/tag.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/tag.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/eyeD3/utils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/flac.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/flac.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/flac.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/m4a.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/m4a.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/m4a.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/mp3.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/mp3.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/mp3.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ogg.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ogg.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/ogg.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/pcm.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/pcm.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/pcm.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/webradio.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/webradio.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/audio/webradio.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/CDDB.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/CDDB.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/CDDB.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/_cdrom.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/_ifoparser.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/audio.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/audio.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/audio.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/cdrom.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/cdrom.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/cdrom.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/data.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/data.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/data.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/dvd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/dvd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/dvd.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/vcd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/vcd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/disc/vcd.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/factory.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/factory.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/factory.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/fourcc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/fourcc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/fourcc.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/gameboy.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/gameboy.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/gameboy.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/snes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/snes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/games/snes.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/EXIF.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/EXIF.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/EXIF.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/IPTC.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/IPTC.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/IPTC.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/bmp.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/bmp.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/bmp.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/generic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/generic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/generic.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/gif.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/gif.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/gif.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/jpg.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/jpg.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/jpg.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/png.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/png.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/png.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/tiff.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/tiff.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/image/tiff.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/language.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/language.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/language.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/directory.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/directory.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/directory.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/xmlfile.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/xmlfile.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/misc/xmlfile.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/version.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/asf.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/asf.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/asf.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/core.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/core.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/core.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/flv.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/flv.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/flv.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mkv.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mkv.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mkv.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mp4.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mp4.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mp4.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mpeg.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mpeg.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/mpeg.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/ogm.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/ogm.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/ogm.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/real.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/real.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/real.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/riff.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/riff.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/riff.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/vcd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/vcd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/video/vcd.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/kaa_metadata-0.7.7-py2.7.egg-info</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>0.7.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Duncan Wijnberg</Name>
+            <Email>duncanw@fastmail.net</Email>
+        </Update>
+    </History>
+</PISI>
