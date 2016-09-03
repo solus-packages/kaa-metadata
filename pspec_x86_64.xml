@@ -2,11 +2,11 @@
     <Source>
         <Name>kaa-metadata</Name>
         <Packager>
-            <Name>Duncan Wijnberg</Name>
-            <Email>duncanw@fastmail.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
-        <PartOf>desktop.library</PartOf>
+        <PartOf>programming</PartOf>
         <Summary xml:lang="en">A powerful Python library for parsing media metadata.</Summary>
         <Description xml:lang="en">A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
 </Description>
@@ -17,7 +17,7 @@
         <Summary xml:lang="en">A powerful Python library for parsing media metadata.</Summary>
         <Description xml:lang="en">A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
 </Description>
-        <PartOf>desktop.library</PartOf>
+        <PartOf>programming</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.py</Path>
@@ -203,12 +203,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-31</Date>
+        <Update release="2">
+            <Date>2016-09-03</Date>
             <Version>0.7.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Duncan Wijnberg</Name>
-            <Email>duncanw@fastmail.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

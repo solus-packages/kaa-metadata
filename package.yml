@@ -1,18 +1,18 @@
 name       : kaa-metadata
 version    : 0.7.7
-release    : 1
+release    : 2
 source     :
     - https://github.com/freevo/kaa-metadata/archive/0.7.7.tar.gz : 9aa805a606684a6ba741ab007988981fbc165f12b9615638e39dc5c6cf6a43ab
 license    : GPL-2.0
-component  : desktop.library
+component  : programming
 summary    : A powerful Python library for parsing media metadata.
 description: |
     A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
 builddeps  :
-   - pkgconfig(dvdread)
-   - kaa-base
+    - pkgconfig(dvdread)
+    - kaa-base
 rundeps    :
-   - kaa-base
+    - kaa-base
 build      : |
     %python_setup
 install    : |
