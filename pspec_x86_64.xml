@@ -10,7 +10,7 @@
         <Summary xml:lang="en">A powerful Python library for parsing media metadata.</Summary>
         <Description xml:lang="en">A powerful Python library for parsing media metadata, which can extract metadata (such as id3 tags, for example) from a wide range of media files.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>kaa-metadata</Name>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>programming</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/mminfo</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/kaa/metadata/__init__.pyo</Path>
@@ -203,8 +203,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-02-09</Date>
+        <Update release="4">
+            <Date>2020-03-04</Date>
             <Version>0.7.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>

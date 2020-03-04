@@ -1,6 +1,6 @@
 name       : kaa-metadata
 version    : 0.7.7
-release    : 3
+release    : 4
 source     :
     - https://github.com/freevo/kaa-metadata/archive/0.7.7.tar.gz : 9aa805a606684a6ba741ab007988981fbc165f12b9615638e39dc5c6cf6a43ab
 license    : GPL-2.0
